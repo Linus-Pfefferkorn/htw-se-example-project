@@ -1,13 +1,15 @@
 = Beispiel-Dokumentation mit AsciiDoc 
-Vorname Nachname <email> 
-1.0, 01.09.2019 
+Linus Pfefferkorn <email> 
+1.0, 21.10.2022 
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: rouge
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
 
+[#Syntax]
 == Kennenlernen der Systax
 
 Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
@@ -44,3 +46,25 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 |===
 
+===Quellcode 
+[#code]
+.Ein Beispieprogramm in C 
+[source, c, linenums]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    print("Hello World!\n");
+    return 0;
+}
+----
+
+=== Bilder
+.VS Code Editor
+image::screen_vsc.png[Screenshot VS Code]
+
+=== Verweise
+In diesem Dokument werden verschiedene Themen behandelt, z.B.
+<<Syntax>>
+<<code>>
