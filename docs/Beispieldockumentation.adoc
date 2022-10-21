@@ -16,6 +16,31 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 .Beispiel: unsortierte Liste 
 // Platzhalter
-
+* Moin 
+* Hallo 
+* Wie gehts
 .Beispiel: sortierte Liste
 // Platzhalter
+. Apfel 
+. Birne 
+. Zitrusfrucht 
+.. Limette
+.. Zitrone
+.. Orange
+
+=== Tabellen und Textformation
+|===
+|Formatierung |Syntax |Beschreibung
+
+|*Bold* | \*bold* |fetter Text
+
+|_italic_ |\_italic_ |kursiver Text
+
+|`monospace` |\`monospace` |Text mit fester Laufweite
+
+|*_Bolditalic_* |\*\_bolditalic_* |Text mit kombinierter Formatierung
+
+|**bold**__italic__ | pass:[**bold**__italic__]|Text mit Formatierung innerhalb eines Wortes
+
+|===
+
