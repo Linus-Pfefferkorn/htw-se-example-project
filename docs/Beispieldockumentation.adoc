@@ -4,6 +4,7 @@ Linus Pfefferkorn <email>
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: rouge
+:imagesdir: images
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -61,10 +62,16 @@ int main(int argc, char* argv[])
 ----
 
 === Bilder
-.VS Code Editor
-image::screen_vsc.png[Screenshot VS Code]
+
+[#Screenshot_VSCode_mit_AsciiDoc]
+:imageTitle: Screenshot VSCode mit Asciidoc
+:imageFile: image1.png
+:imageWidth: 800
+image::{imageFile}[title="{imageTitle}", width={imageWidth}]
 
 === Verweise
 In diesem Dokument werden verschiedene Themen behandelt, z.B.
 <<Syntax>>
 <<code>>
+
+include::../src/hello_world.c[lines=3..7]
