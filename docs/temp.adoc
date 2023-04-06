@@ -12,4 +12,4 @@ das ist Text 2
 
 == Feature 2
 
-<insert_feature_here>
+Das ist ein 2. Feature
