@@ -2,7 +2,8 @@
 
 == Beschreibung
 
-<insert_bugfix_here>
+das ist ein bugfix
+und das ist noch ein bugfix
 
 == Feature 1
 
