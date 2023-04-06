@@ -7,8 +7,10 @@ und das ist noch ein bugfix
 
 == Feature 1
 
-<insert_feature_here>
+Ziel des neuen Features ist die Funktionsweise von Branches zu entdecken 
+das ist Text 2
+
 
 == Feature 2
 
-<insert_feature_here>
+Das ist ein 2. Feature
