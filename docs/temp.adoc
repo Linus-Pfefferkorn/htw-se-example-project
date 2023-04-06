@@ -7,6 +7,8 @@
 == Feature 1
 
 Ziel des neuen Features ist die Funktionsweise von Branches zu entdecken 
+das ist Text 2
+
 
 == Feature 2
 
